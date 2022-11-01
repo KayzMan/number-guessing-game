@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./forest.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.app{
+    background: rgba(0, 0, 0, 0.55);
+    margin: 5vw auto;
+    width: 60%;
+    text-align: center;
+    padding: 60px;
+    font-size: xx-large;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+#header{
+    margin-bottom: 20px;
+}
+
+#inputBox{
+    font-size: xx-large;
+    width: 30%;
+    border-radius: 5px;
+}
+
+#attempts{
+    color: aqua;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+#btn, #replay{
+    padding: 15px 25px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+
+#btn:hover, #replay:hover{
+    background: #206020;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.55);
+}
+
+#resultLabel{
+    margin: 30px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
